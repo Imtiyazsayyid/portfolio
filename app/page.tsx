@@ -7,7 +7,7 @@ export default function Home() {
           Imtiyaz Sayyid&apos;s Portfolio
         </h1>
         <p className="font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
-          We Are In Development, Stay Tuned!
+          We Are In Development, Stay Tuned.
         </p>
       </div>
     </div>
