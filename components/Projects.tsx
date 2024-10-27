@@ -13,7 +13,7 @@ const data = [
     id: 2,
     img: "/aliff-dashboard.png",
     title: "Aliff Overseas Dashboard",
-    icons: ["vue.png", "js.png", "bootstrap.png", "node.png", "mysql3.png"],
+    icons: ["vue.png", "js.png", "bootstrap.png", "node.png", "mysql3.png", "knex.png"],
     link: "https://app.aliff.in",
   },
   {
@@ -34,7 +34,7 @@ const data = [
     id: 5,
     img: "/rms.png",
     title: "Corsymo",
-    icons: ["vue.png", "js.png", "bootstrap.png", "node.png", "mysql3.png"],
+    icons: ["vue.png", "js.png", "bootstrap.png", "node.png", "mysql3.png", "knex.png"],
     link: "https://dev.corsymo.com/",
   },
 
@@ -42,7 +42,7 @@ const data = [
     id: 6,
     img: "/founder.png",
     title: "Founder",
-    icons: ["next.svg", "ts.svg", "tail.svg", "shadcn.png"],
+    icons: ["next.svg", "ts.svg", "tail.svg", "shadcn.png", "mysql3.png", "prisma.png"],
     link: "https://founder.imtiyazsayyid.in",
   },
 ];
