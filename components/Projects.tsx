@@ -7,28 +7,28 @@ const data = [
     img: "/aliff.png",
     title: "Aliff Overseas",
     icons: ["vue.png", "js.png", "bootstrap.png", "node.png", "mysql3.png"],
-    link: "aliff.in",
+    link: "https://aliff.in",
   },
   {
     id: 2,
     img: "/tktfox.png",
     title: "TKTFOX",
     icons: ["react.png", "js.png", "bootstrap.png", "node.png", "mysql3.png"],
-    link: "tktfox.com",
+    link: "https://tktfox.com",
   },
   {
     id: 3,
     img: "/n9.png",
     title: "N9VFX",
     icons: ["react.png", "js.png", "bootstrap.png"],
-    link: "n9vfx.com",
+    link: "https://n9vfx.com",
   },
   {
     id: 4,
     img: "/founder.png",
     title: "Founder",
     icons: ["next.svg", "ts.svg", "tail.svg", "shadcn.png"],
-    link: "founder.imtiyazsayyid.in",
+    link: "https://founder.imtiyazsayyid.in",
   },
 ];
 
