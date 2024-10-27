@@ -7,7 +7,7 @@ interface Props {
 }
 const LightAndGrid = ({ showLights = false, extraClasses }: Props) => {
   return (
-    <div className={`min-h-screen w-[100vw] absolute -z-1 bg-black-100 ${extraClasses}`}>
+    <div className={`w-[100vw] absolute -z-1 bg-black-100 ${extraClasses}`}>
       {showLights && (
         <div>
           <Spotlight className="-top-40 -left-10 md:-left-32 md-top-20 h-screen" fill="white" />

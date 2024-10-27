@@ -8,12 +8,12 @@ import WorkExperience from "@/components/WorkExperience";
 export default function Home() {
   return (
     <main className="relative bg-black-100 overflow-x-clip -z-2">
-      <LightAndGrid showLights />
+      <LightAndGrid showLights extraClasses="min-h-screen" />
       <Hero />
       <Projects />
       <Skills />
       <WorkExperience />
-      <LightAndGrid extraClasses="min-h-[30rem] h-[30rem] overflow-hidden" />
+      <LightAndGrid extraClasses="max-h-[30rem] overflow-hidden" />
       <Footer />
     </main>
   );
