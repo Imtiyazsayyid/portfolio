@@ -2,7 +2,7 @@ import { TextGenerateEffect } from "./TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="flex justify-center pt-56 pb-56 px-5 border">
+    <div className="flex justify-center pt-56 pb-20 px-5 border">
       <div className="flex flex-col items-center max-w-7xl">
         <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 z-50">
           Crafting Seamless User Journeys

@@ -100,7 +100,7 @@ const WorkExperience = () => {
   return (
     <div className="flex justify-center pb-32">
       <div className="w-full max-w-7xl">
-        <h1 className="text-6xl font-bold text-center">Work Experience</h1>
+        <h1 className="text-[40px] md:text-5xl font-bold text-center">Work Experience</h1>
         <Timeline data={data} />
       </div>
     </div>

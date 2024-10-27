@@ -36,7 +36,9 @@ const Projects = () => {
   return (
     <div className="flex justify-center w-full bg-black-100 mt-10">
       <div className="w-full max-w-7xl mb-20">
-        <h1 className="text-5xl font-bold relative z-50 text-center">Some Projects I&apos;ve Worked On</h1>
+        <h1 className="text-[40px] md:text-5xl font-bold relative z-50 text-center">
+          Some Projects I&apos;ve Worked On
+        </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-20 px-5 w-full">
           {data.map(({ id, icons, link, title, img }) => (
             <ProjectCard key={id} icons={icons} link={link} title={title} img={img} />
