@@ -14,21 +14,21 @@ const data = [
     img: "/tktfox.png",
     title: "TKTFOX",
     icons: ["react.png", "js.png", "bootstrap.png", "node.png", "mysql3.png"],
-    link: "aliff.in",
+    link: "tktfox.com",
   },
   {
     id: 3,
     img: "/n9.png",
     title: "N9VFX",
     icons: ["react.png", "js.png", "bootstrap.png"],
-    link: "aliff.in",
+    link: "n9vfx.com",
   },
   {
     id: 4,
     img: "/founder.png",
     title: "Founder",
     icons: ["next.svg", "ts.svg", "tail.svg", "shadcn.png"],
-    link: "aliff.in",
+    link: "founder.imtiyazsayyid.in",
   },
 ];
 

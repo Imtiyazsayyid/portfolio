@@ -1,5 +1,6 @@
 "use client";
-import { useMotionValueEvent, useScroll, useTransform, motion } from "framer-motion";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 
 interface TimelineEntry {
