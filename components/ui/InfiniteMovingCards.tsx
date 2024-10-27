@@ -3,6 +3,11 @@
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 
+interface Item {
+  img: string;
+  link: string;
+}
+
 export const InfiniteMovingCards = ({
   items,
   direction = "left",
@@ -10,7 +15,7 @@ export const InfiniteMovingCards = ({
   pauseOnHover = true,
   className,
 }: {
-  items: string[];
+  items: Item[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
@@ -81,9 +86,11 @@ export const InfiniteMovingCards = ({
             style={{
               background: "linear-gradient(180deg, var(--black-100), var(--black-200)",
             }}
-            key={item}
+            key={item.img}
           >
-            <img src={item} className="h-full w-full object-contain rounded-xl" alt="" />
+            <a href={item.link} target="_blank" className="h-full w-full">
+              <img src={item.img} className="h-full w-full object-contain rounded-xl" alt="" />
+            </a>
           </li>
         ))}
       </ul>
