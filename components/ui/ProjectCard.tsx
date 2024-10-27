@@ -26,7 +26,7 @@ export function ProjectCard({ title, icons, link, img }: Props) {
                 <img src={icon} className="w-5 h-5 object-contain rounded-sm" key={icon} />
               ))}
             </div>
-            <a className="flex gap-1 items-center" href={link}>
+            <a className="flex gap-1 items-center" href={link} target="_blank">
               <p className="text-sm font-bold">View Site</p>
               <FaLocationArrow className="h-4 w-4" />
             </a>

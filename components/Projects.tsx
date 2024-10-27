@@ -21,7 +21,7 @@ const data = [
     img: "/n9.png",
     title: "N9VFX",
     icons: ["react.png", "js.png", "bootstrap.png"],
-    link: "https://n9vfx.com",
+    link: "https://number9vfx.com/",
   },
   {
     id: 4,
