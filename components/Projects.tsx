@@ -30,13 +30,13 @@ const data = [
     icons: ["react.png", "js.png", "bootstrap.png"],
     link: "https://number9vfx.com/",
   },
-  {
-    id: 5,
-    img: "/rms.png",
-    title: "Corsymo",
-    icons: ["vue.png", "js.png", "bootstrap.png", "node.png", "mysql3.png", "knex.png"],
-    link: "https://dev.corsymo.com/",
-  },
+  // {
+  //   id: 5,
+  //   img: "/rms.png",
+  //   title: "Corsymo",
+  //   icons: ["vue.png", "js.png", "bootstrap.png", "node.png", "mysql3.png", "knex.png"],
+  //   link: "https://dev.corsymo.com/",
+  // },
 
   {
     id: 6,
