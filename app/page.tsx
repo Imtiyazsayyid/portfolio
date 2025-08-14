@@ -3,7 +3,6 @@ import LightAndGrid from "@/components/LightAndGrid";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Hero from "@/components/ui/Hero";
-import WorkExperience from "@/components/WorkExperience";
 
 export default function Home() {
   return (
