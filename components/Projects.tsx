@@ -38,13 +38,13 @@ const data = [
   //   link: "https://dev.corsymo.com/",
   // },
 
-  {
-    id: 6,
-    img: "/founder.png",
-    title: "Founder",
-    icons: ["next.svg", "ts.svg", "tail.svg", "shadcn.png", "mysql3.png", "prisma.png"],
-    link: "https://founder.imtiyazsayyid.in",
-  },
+  // {
+  //   id: 6,
+  //   img: "/founder.png",
+  //   title: "Founder",
+  //   icons: ["next.svg", "ts.svg", "tail.svg", "shadcn.png", "mysql3.png", "prisma.png"],
+  //   link: "https://founder.imtiyazsayyid.in",
+  // },
 ];
 
 const Projects = () => {

@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <Projects />
       <Skills />
-      <WorkExperience />
+      {/* <WorkExperience /> */}
       <LightAndGrid extraClasses="max-h-[30rem] overflow-hidden" />
       <Footer />
     </main>
